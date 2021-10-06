@@ -1,7 +1,7 @@
 import eel
 import pyowm
 
-owm = pyowm.OWM('ba0b14b35c181a6b2c78c4b5bd860cc2')
+owm = pyowm.OWM('REPLACE THIS WITH YOUR PYOWM TOKEN!!!')
 
 @eel.expose
 def get_weather(place):
